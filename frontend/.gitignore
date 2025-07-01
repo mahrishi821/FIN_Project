@@ -1,0 +1,69 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.pyc
+.Python
+env/
+venv/
+ENV/
+env.bak/
+*.ipynb_checkpoints
+
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# === VS Code ===
+.vscode/
+.history/
+
+# === Windows OS Files ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# === System Files ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+.Spotlight-V100
+.Trashes
+
+# === Git ===
+*.orig
+*.swp
+*.swo
+*.lock
+.gitignore
+.gitmodules
+
+# === Logs ===
+*.log
+logs/
+*.out
+*.pid
+
+# === Env Files ===
+.env
+.env.*
+*.env
+
+# === Others (Optional) ===
+.idea/             # IntelliJ or PyCharm
+*.sqlite3
+coverage/
+htmlcov/
+*.tar.gz
+*.zip
+*.bak
+*.tmp
